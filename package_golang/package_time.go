@@ -9,8 +9,6 @@ func PackageTime() string {
 	now := time.Now()
 
 	fmt.Println(now)
-	fmt.Println(now)
-	fmt.Println(now.Day())
 	fmt.Println(now.Day())
 	fmt.Println(now.Month())
 	fmt.Println(now.Year())
