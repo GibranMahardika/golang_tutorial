@@ -273,4 +273,8 @@ func main() {
 	fmt.Println("package_golang - package_sort")
 	packageSort := package_golang.PackageSort()
 	fmt.Println(packageSort)
+
+	fmt.Println("package_golang - package_sort")
+	packageTime := package_golang.PackageTime()
+	fmt.Println(packageTime)
 }
