@@ -277,4 +277,12 @@ func main() {
 	fmt.Println("package_golang - package_sort")
 	packageTime := package_golang.PackageTime()
 	fmt.Println(packageTime)
+
+	fmt.Println("package_golang - package_reflect")
+	PackageReflect := package_golang.PackageReflect()
+	fmt.Println(PackageReflect)
+
+	fmt.Println("package_golang - package_regex")
+	PackageRegexp := package_golang.PackageRegexp()
+	fmt.Println(PackageRegexp)
 }
